@@ -1,4 +1,6 @@
 shy1080.github.io
 =================
 
-Web Development
+Web Development Preview
+
+This is a working preview of my current web design project.
