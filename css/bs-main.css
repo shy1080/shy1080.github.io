@@ -3,11 +3,13 @@
  * Visit us at michaelheple.com
  */
 
-html, body, #wrapper {
+html, body {
     height: 100%;
 }
 #wrapper {
+    height: 100%;
     padding-left: 0;
+    padding-right: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -50,13 +52,19 @@ html, body, #wrapper {
     background-color: transparent;
     border-radius: 0;
     float: left;
+    color: #fff;
+    font-size: 18px;
 }
 #menu-toggle:hover, #menu-toggle:focus {
     background-color: transparent;
 }
+#menu-toggle-icon {
+    
+}
 .nav {
     text-align:center;
     height: 70%;
+    font-size: 18px
 }
 .nav>li>a{
     color:#fff;
@@ -70,7 +78,7 @@ html, body, #wrapper {
     display: table-cell;
     vertical-align: middle
 }
-.nav>li>a:hover{
+.nav>li>a:hover, .nav>li>a:focus{
     background-color: transparent;
     border: none;
 }
@@ -92,6 +100,13 @@ html, body, #wrapper {
 #contact-button {
     background-color: #4d6a72;
 }
+#page-content-wrapper {
+    height: auto;
+    min-height: 100%;
+    background-color: #6b5353;
+    background-attachment: fixed;
+    color: #fff;
+}
 
 /* Media Queries */
 
@@ -109,7 +124,7 @@ html, body, #wrapper {
         width: 0;
     }
     #page-content-wrapper{
-        padding: 20px;
+        padding: 0 20px;
     }
     #wrapper.toggled #page-content-wrapper {
         position: relative;
