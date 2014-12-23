@@ -25,10 +25,12 @@
   <body>
     <div id="wrapper" class="container-fluid">
         <!-- Sidebar -->
-        <div id="sidebar-wrapper">
+        <div id="sidebar-wrapper" class="col-sm-2">
             <div class="sidebar-brand" role="img">
                 <a href="#">
-                    <img class="img-responsive" alt="Michael Heple Design Logo" src="images/logov.png">
+                    <img class="img-responsive" alt="Michael Heple Design Logo" src="images/eaglelogodis.png">
+                    <h1>Michael Heple</h1>
+                    <h2>Web Design Services</h2>
                 </a>
             </div>
             <ul class="nav nav-tabs nav-stacked" role="navigation">
@@ -50,10 +52,7 @@
         </div>
         <!-- End Sidebar -->
         <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle" role="button">
-                <i id="menu-toggle-icon" class="fa fa-bars"></i>&ensp; Menu</a>
-            <br>
+        <div id="page-content-wrapper" class="col-sm-10">
             <div class="row clearfix">
                 <div class="col-md-12 column">
                     <div class="jumbotron">
@@ -85,10 +84,7 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- Menu Toggle Script -->
     <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
-        });
+        
     </script>
   </body>
 </html>
