@@ -11,3 +11,70 @@ html, body {
     padding-left: 0;
     padding-right: 0;
 }
+.navbar {
+    margin-bottom: 0;
+    background-color: #3e425f;
+    padding:0;
+}
+.navbar-brand {
+    padding: 2px 2px 2px 10px;
+    font-size: 14px;
+}
+.navbar-brand > img {
+    height: 100%;
+    display: inline;
+}
+.navbar-default .navbar-text, .brand-name {
+    color: #fff;
+    display: inline;
+}
+.nav > li > a {
+    color: #fff;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #33364f;
+}
+#page-content-container {
+    padding-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .navbar > .container-fluid {
+        padding: 5px 30px 0 20px;
+        height:100%;
+        background-image: url("../images/barbglft.png");
+        background-repeat: repeat-y;
+    }
+    .navbar {
+        height: 100%;
+        border-radius: 0;
+        border-color: #fff;
+        background-image: url(../images/barbgsm.png);
+        background-repeat: repeat-y;
+        background-position: right;
+    }
+    .navbar-brand{
+        float:none;
+        text-align:center;
+    }
+    .navbar-brand > img {
+        height: auto;
+    }
+    .navbar-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: -10px;
+    }
+    .brand-name {
+        display:inline-block;
+    }
+}
+
+@media (min-width: 991px) {
+    .navbar-brand{
+        font-size: 18px;
+    }
+}
