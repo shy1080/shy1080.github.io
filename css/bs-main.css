@@ -14,13 +14,14 @@ html, body {
 #sidebar-wrapper {
     height: 100%;
     background-color: #3e425f;
+    background-image: url("../images/barbgsm.png");
+    background-position: right center;
+    background-repeat: repeat-y;
 }
 .sidebar-brand>a>img {
     display: block;
     margin: 0 auto;
     padding: 5px 0;
-    height: 70%;
-    max-height: 205px;
 }
 .sidebar-brand>a>h1 {
     font-size: 25px;
@@ -36,8 +37,7 @@ html, body {
     color: #fff;
 }
 .sidebar-brand {
-    height: 30%;
-    min-height: 185px;
+
 }
 #menu-toggle {
     padding: 1px 5px;
@@ -52,10 +52,14 @@ html, body {
 }
 .nav {
     margin-top: 20px;
+    border-bottom: 0;
 }
 .nav>li>a{
     color:#fff;
-    padding: 1px 15px;
+    padding: 1px 15px 1px 45px;
+}
+#page-content-wrapper {
+   
 }
 
 /* Media Queries */
