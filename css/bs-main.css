@@ -61,10 +61,6 @@ html, body {
     .navbar-brand > img {
         height: auto;
     }
-    .navbar-text {
-        margin-left: 0;
-        margin-right: 0;
-    }
     .navbar>.container-fluid .navbar-brand {
         margin-left: -10px;
     }
